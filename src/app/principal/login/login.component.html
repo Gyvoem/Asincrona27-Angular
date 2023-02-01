@@ -1,0 +1,40 @@
+
+
+<section class="container-sm">
+    <section class="container py-5 h-100">
+        <section class="row d-flex justify-content-center align-items-center h-100">
+            <section class="col-12 col-md-8 col-lg-6 col-xl-5">
+                <section class="card shadow-2-strong border-dark" style="border-radius: 5px">
+                  <section class="card-body px-5 text-center">
+    <h2 class="text-center">Login</h2>
+<form>
+<section class="form-group m-3">
+<label for="nombre">Nombre:</label>
+<input type="text" class="form-control"  name="nombre" [(ngModel)]="user" name="nombre" required #nombre="ngModel">
+<section *ngIf="nombre.invalid && (nombre.touched || nombre.dirty)">
+    <section *ngIf="nombre.errors?.['required']" class="alert alert-danger">
+      <p>El nombre es obligatorio</p>
+    </section>
+  </section>
+</section>
+
+<section class="form-group m-3">
+<label for="password">Password:</label>
+<input type="text" class="form-control" name="password" [(ngModel)]="pass" name="pass" required #passw="ngModel">
+<section *ngIf="passw.invalid && (passw.touched || passw.dirty)">
+    <section *ngIf="passw.errors?.['required']" class="alert alert-danger">
+      <p>El password es obligatorio</p>
+    </section>
+  </section>
+</section>
+<section class="form-group m-3">
+<input type="button" class="btn btn-primary m-2" value="Login" id="btnEnviar" (click)="Logearse()">
+</section>
+<h2 class="text-center mt-4"> {{errorLogin}} </h2>
+</form>
+</section>
+</section>
+</section>
+</section>
+</section>
+</section>
