@@ -1,4 +1,21 @@
-# Act27
+# ASINCRONA 27 - Angular
+## Trabajo Grupal
+Integrantes:
+- ARACELI PONCE SANGA
+- EDILT LUZ TORIBIO FLORES
+- MARWIN WLADIMIR GARAY MONTOYA
+- JHYM STONY HUALLA MUÑOZ
+* * *
+> - El formulario login cuenta con validaciones de tipo required. 
+> - No permite el ingreso de valores de entrada vacíos.
+> 
+>![iNICIO](https://github.com/Gyvoem/Asincrona27-Angular/blob/master/src/assets/login.PRUEBA.jpg)
+>
+>> - Se realizo pruebsa unitarias para verificar el comportamiento de los métodos con Karma - Jasmine
+> 
+>![iNICIO](https://github.com/Gyvoem/Asincrona27-Angular/blob/master/src/assets/karma.asincrona.jpg)
+>
+* * *
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
 
